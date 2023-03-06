@@ -1,0 +1,34 @@
+body {
+    background-color: #f5d4ee;
+    margin: 0%;
+}
+
+.button {
+    background-color: #F1e4db;
+    display: flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+  
+
+
+.navbar {
+    background-color: #F1e4db;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 50px;
+}
+
+nav a{
+    color: #101010;
+    display: flex;
+    
+}
+
+.Pasteleria {
+    display: flex;
+    justify-content: center;
+}
