@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1e4db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.rrss {
+    background-color: #F1e4db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 30px;
+    
+}
+
+.copyrigth {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1e4db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
