@@ -1,0 +1,32 @@
+nav {
+    background-color: #f1e4db;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div a{
+    margin-right: 20px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav svg{
+    color: black;
+    display: none;
+}
+
+@media (max-width: 700px) {
+    nav svg{
+        display: block;
+    }
+
+    nav a{
+        display: none;
+    }
+    
+}

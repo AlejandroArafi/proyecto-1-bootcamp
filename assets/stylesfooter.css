@@ -4,6 +4,7 @@
 }
 
 footer {
+
     display: flex;
     flex-direction: column;
     
@@ -13,6 +14,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     background-color: #F1e4db;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50px;
@@ -25,8 +27,9 @@ footer {
     align-items: center;
     height: 80px;
     gap: 30px;
-    
+    margin-top: 0px;
 }
+
 
 .copyrigth {
     font-family: 'Montserrat', sans-serif;

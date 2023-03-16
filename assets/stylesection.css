@@ -1,0 +1,32 @@
+section {
+    background-color: #f1e4db;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+section div a{
+    margin-right: 20px;
+}
+
+section a{
+    color: black;
+    text-decoration: none;
+
+}
+
+section svg{
+    color: black;
+    display: none;
+}
+
+@media (max-width: 700px) {
+    section svg{
+        display: block;
+    }
+
+    section a{
+        display: none;
+    }
+    
+}
