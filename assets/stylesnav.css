@@ -4,29 +4,45 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
-nav div a{
-    margin-right: 20px;
+#login-link i {
+    font-size: 1.3em; /* Cambia el valor a la medida deseada */
+    transition: color 0.3s ease; /* Agrega una transición suave con función ease */
+    color: #333; /* Color de icono predeterminado */
 }
 
-nav a{
+#login-link i:hover {
+    color: #ff5733; /* Nuevo color al pasar el cursor (naranja) */
+}
+
+
+/* nav div a {
+    margin-right: 20px;
+} */
+
+nav a {
     color: black;
     text-decoration: none;
-
 }
 
-nav svg{
+nav svg {
     color: black;
     display: none;
 }
 
 @media (max-width: 700px) {
-    nav svg{
+    nav svg {
         display: block;
     }
 
-    nav a{
+    nav a {
         display: none;
     }
-    
+}
+
+div a {
+    transition: color 0.3s ease; /* Agrega una transición suave con función ease */
+    color: #333; /* Color de icono predeterminado */
+}
+div a:hover {
+    color: #ff5733; /* Nuevo color al pasar el cursor (naranja) */
 }

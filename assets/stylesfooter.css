@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 footer {
     display: flex;
     flex-direction: column;
+    background-color: #F1e4db;
 }
 
 .info{
@@ -15,7 +17,18 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    font-size: 1.1em;
+}
+.info h3{
+    font-size: 1em;
+}
+.copyrigth h4{
+    font-size: 0.9em;
 }
 
 .rrss {
@@ -23,10 +36,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    gap: 30px;
-    margin-top: 0px;
+      gap: 30px;
+      padding: 10px; /* Ajusta el relleno en lugar de altura fija */
+    /* margin-top: 0px; */
 }
+.rrss img{
+    width: 24px;
+}
+
 
 
 .copyrigth {
@@ -35,5 +52,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    padding: 10px; /* Ajusta el relleno en lugar de altura fija */
+}
+
+
+
+/* Media query para ajustar el diseño en pantallas pequeñas */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Cambiar a dirección de columna en pantallas pequeñas */
+    }
+    .rrss {
+        gap: 10px; /* Reducir el espacio entre iconos en pantallas pequeñas */
+    }
 }

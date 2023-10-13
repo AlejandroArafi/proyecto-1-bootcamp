@@ -1,4 +1,4 @@
-section {
+/* section {
     background-color: #f1e4db;
     padding: 16px 32px;
     display: flex;
@@ -29,4 +29,64 @@ section svg{
         display: none;
     }
     
+}
+.historia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: 70%;
+    text-wrap: balance;
+} */
+
+
+section {
+    background-color: #f1e4db;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center; /* Cambiar a espacio entre elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+section div a {
+    margin-right: 20px;
+  
+}
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+section svg {
+    color: black;
+    display: none;
+}
+
+@media (max-width: 700px) {
+    section {
+        flex-direction: column; /* Cambiar a dirección de columna en pantallas pequeñas */
+        align-items: center; /* Centrar horizontalmente */
+    }
+
+    section div {
+        margin-top: 10px; /* Espacio entre enlaces en pantallas pequeñas */
+        text-align: center; /* Centrar el texto */
+    }
+
+    section a {
+        display: none; /* Ocultar enlaces en pantallas pequeñas */
+    }
+
+    section svg {
+        display: block; /* Mostrar el ícono de lista en pantallas pequeñas */
+    }
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: 70%;
+    max-width: 100%; /* Hacer que el ancho sea del 100% en pantallas pequeñas */
+    padding: 10px; /* Añadir relleno para espaciado en pantallas pequeñas */
 }

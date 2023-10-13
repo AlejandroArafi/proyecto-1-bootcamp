@@ -1,0 +1,43 @@
+/* Estilos para centrar el contenedor */
+.login-container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 0 auto;   /* Centrar horizontalmente */
+    padding: 20px;    /* Espaciado interior para que no esté pegado a los bordes */
+    border: 1px solid #ccc; /* Agregar un borde con color gris claro */
+  border-radius: 10px;
+  margin-top: 100px;
+}
+  
+  /* Estilos para los elementos dentro del contenedor */
+  .login-container div {
+    margin-bottom: 10px; /* Espacio entre elementos internos */
+  }
+  
+  /* Estilos para los inputs dentro del contenedor */
+  .login-container input {
+    width: 100%; /* Ancho completo dentro del contenedor */
+    padding: 5px; /* Espaciado interior para los inputs */
+    border: 1px solid #ccc; /* Agregar un borde a los inputs con color gris claro */
+  border-radius: 5px;
+  }
+ .login-container button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+ }
+
+ .password-container label {
+    margin-bottom: 10px;
+ }
+ .email-container label  {
+margin-bottom: 10px;
+ }
+ 
+ .password-container input {
+    margin-bottom: 20px;
+ }
+
+ .email-container {
+    margin-top: 20px;
+ }
+ 
